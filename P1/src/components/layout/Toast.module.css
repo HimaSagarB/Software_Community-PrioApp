@@ -1,0 +1,4 @@
+.toast { position:fixed; bottom:2rem; right:2rem; z-index:9999; background:var(--ink); color:var(--paper); padding:0.85rem 1.3rem; border-radius:var(--r); border-left:4px solid var(--green); box-shadow:var(--sh-lg); font-family:var(--mono); font-size:0.73rem; display:flex; align-items:center; gap:0.65rem; max-width:380px; animation:in .28s ease, out .35s ease 2.85s forwards; }
+.error { border-left-color:var(--accent); }
+@keyframes in  { from{transform:translateX(110%);opacity:0;} to{transform:translateX(0);opacity:1;} }
+@keyframes out { to{opacity:0;transform:translateY(6px);} }

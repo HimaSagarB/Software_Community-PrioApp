@@ -1,0 +1,19 @@
+.page { padding-bottom:3rem; }
+.hdr  { display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:1.5rem; flex-wrap:wrap; gap:1rem; }
+.title{ font-size:1.6rem; font-weight:900; letter-spacing:-0.02em; }
+.sub  { color:var(--muted); font-size:0.85rem; margin-top:0.2rem; }
+.nudge{ font-family:var(--mono); font-size:0.65rem; text-transform:uppercase; letter-spacing:0.06em; padding:0.5rem 1rem; background:var(--cream); border:1.5px solid var(--border); border-radius:var(--r); color:var(--muted); cursor:pointer; transition:all .15s; flex-shrink:0; }
+.nudge:hover { border-color:var(--accent); color:var(--accent); }
+
+.filterBar { display:flex; flex-wrap:wrap; gap:0.55rem; align-items:center; margin-bottom:1.4rem; padding:1rem 1.2rem; background:var(--card); border:1.5px solid var(--border); border-radius:var(--r); box-shadow:var(--sh); }
+.search    { flex:1; min-width:180px; padding:0.52rem 0.75rem; border:1.5px solid var(--border); border-radius:var(--r); font-size:0.85rem; background:var(--paper); outline:none; transition:border-color .15s; }
+.search:focus { border-color:var(--blue); }
+.sel       { padding:0.48rem 0.65rem; border:1.5px solid var(--border); border-radius:var(--r); font-family:var(--mono); font-size:0.63rem; text-transform:uppercase; letter-spacing:0.04em; background:var(--paper); color:var(--ink); cursor:pointer; outline:none; transition:border-color .15s; }
+.sel:focus { border-color:var(--blue); }
+.clearBtn  { font-family:var(--mono); font-size:0.63rem; text-transform:uppercase; letter-spacing:0.04em; padding:0.48rem 0.75rem; border:1.5px solid var(--border); border-radius:var(--r); color:var(--muted); cursor:pointer; transition:all .15s; }
+.clearBtn:hover { border-color:var(--accent); color:var(--accent); }
+
+.list  { display:flex; flex-direction:column; gap:0.75rem; }
+.empty { text-align:center; padding:4rem 2rem; border:1.5px dashed var(--border); border-radius:var(--r); color:var(--muted); }
+.emptyIcon { font-size:2.2rem; margin-bottom:0.6rem; }
+.emptyText { font-size:0.88rem; }

@@ -1,0 +1,40 @@
+.page { padding-bottom:3rem; }
+.hdr  { margin-bottom:1.8rem; }
+.title{ font-size:1.6rem; font-weight:900; letter-spacing:-0.02em; }
+.sub  { color:var(--muted); font-size:0.85rem; margin-top:0.2rem; }
+
+.tableWrap { overflow-x:auto; background:var(--card); border:1.5px solid var(--border); border-radius:var(--r); box-shadow:var(--sh); }
+.table     { width:100%; border-collapse:collapse; }
+.table th  { font-family:var(--mono); font-size:0.6rem; letter-spacing:0.09em; text-transform:uppercase; color:var(--muted); text-align:left; padding:0.7rem 0.9rem; border-bottom:2px solid var(--border); background:var(--cream); white-space:nowrap; }
+.table td  { padding:0.72rem 0.9rem; border-bottom:1px solid var(--cream); vertical-align:middle; }
+.row:last-child td { border-bottom:none; }
+.row:hover td { background:var(--cream); }
+
+.mono      { font-family:var(--mono); font-size:0.75rem; font-weight:600; }
+.timestamp { font-family:var(--mono); font-size:0.65rem; color:var(--muted); white-space:nowrap; }
+.actionBadge { font-family:var(--mono); font-size:0.58rem; text-transform:uppercase; letter-spacing:0.05em; padding:0.18rem 0.5rem; background:#fff9e5; border:1px solid var(--warn); color:var(--warn); border-radius:var(--r); white-space:nowrap; }
+
+.issueTd   { max-width:200px; }
+.issueTitle{ font-weight:600; font-size:0.85rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.issueId   { font-family:var(--mono); font-size:0.58rem; color:var(--muted); margin-top:0.1rem; }
+
+.statusChip { font-family:var(--mono); font-size:0.6rem; text-transform:uppercase; letter-spacing:0.05em; padding:0.15rem 0.45rem; border-radius:var(--r); border:1.5px solid; white-space:nowrap; }
+.open       { background:#e8f0fe; border-color:var(--blue);  color:var(--blue);  }
+.inprogress { background:#fef3e5; border-color:var(--warn);  color:var(--warn);  }
+.resolved   { background:#e8f5ec; border-color:var(--green); color:var(--green); }
+
+.adminName { font-weight:600; font-size:0.85rem; }
+.adminId   { font-family:var(--mono); font-size:0.58rem; color:var(--muted); }
+.noteText  { font-size:0.82rem; color:var(--ink); max-width:200px; word-break:break-word; }
+
+.empty     { text-align:center; padding:4rem 2rem; border:1.5px dashed var(--border); border-radius:var(--r); color:var(--muted); }
+.emptyIcon { font-size:2.2rem; margin-bottom:0.6rem; }
+.emptyText { font-size:0.85rem; line-height:1.6; max-width:380px; margin:0 auto; }
+
+.accessWrap { min-height:60vh; display:flex; align-items:center; justify-content:center; }
+.accessBox  { text-align:center; max-width:400px; padding:2.5rem; background:var(--card); border:1.5px solid var(--border); border-radius:var(--r); box-shadow:var(--sh-lg); }
+.accessIcon { font-size:3rem; margin-bottom:1rem; }
+.accessTitle{ font-size:1.4rem; font-weight:900; margin-bottom:0.5rem; }
+.accessSub  { color:var(--muted); font-size:0.85rem; margin-bottom:1.5rem; line-height:1.6; }
+.accessBtn  { padding:0.65rem 1.4rem; background:var(--accent); color:white; border:none; border-radius:var(--r); font-family:var(--mono); font-size:0.7rem; letter-spacing:0.07em; text-transform:uppercase; cursor:pointer; }
+.accessBtn:hover { background:var(--accent-h); }
