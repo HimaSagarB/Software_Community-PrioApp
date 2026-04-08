@@ -2,7 +2,7 @@
 
 A community issue prioritization and resource allocation platform built with React. Issues are scored using a transparent weighted formula, ranked deterministically, and resources are allocated using a greedy algorithm — replacing FIFO-based resolution with impact-first scheduling.
 
-No backend. No database. Runs entirely in the browser using localStorage.
+
 
 ---
 
